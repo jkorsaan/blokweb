@@ -22,7 +22,7 @@ Jaron Korsaan
 Blauw
 
 #### Je focus:
-Surface Plane
+Responsive
  
 </details>
 
@@ -53,13 +53,13 @@ Spotify Sign Up
 ## Breakdownschets (week 1)
 
 <details>
-<summary>uitwerken na afloop 2e werkgroep</summary>
+<summary>Week 1</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/breakdownschets.png" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/spotify_menu.png" width="375px" alt="breakdown van een dynamisch deel">
 
 ### wellicht nog een dynamisch deel (bijv filter): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
@@ -76,7 +76,7 @@ Spotify Sign Up
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Opstarten was niet het makkelijkst, was weer een tijdje geleden dat ik iets met HTML en CSS had gedaan. Maar eenmaal toen ik de draai te pakken had, ging het goed en had ik maar een paar obstakels omdat ik nog net niet goed HTML en CSS onder de knie heb. Ik heb daarom ook gekozen voor de blauwe piste, zodat ik niet in dezelfde problemen kom als vorig jaar. Toen had ik een ambitieus idee, maar de uitwerking was niet zo makkelijk. HTML en CSS voor de eerste pagina is bijna klaar, naast dat ik nog een aantal aanpassingen moet doen op de CSS. Het menu is gelukt in JavaScript.
 
 
 ### Agenda voor meeting
