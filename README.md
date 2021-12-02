@@ -55,11 +55,11 @@ Spotify Sign Up
 <details>
 <summary>Week 1</summary>
 
-### de hele pagina: 
-<img src="images/breakdownschets.png" width="375px" alt="breakdown van de hele pagina">
+### de hele pagina:
+![-screenshots-](images/breakdownschets.png) 
 
 ### dynamisch deel (bijv menu): 
-<img src="images/spotify_menu.png" width="375px" alt="breakdown van een dynamisch deel">
+![-screenshots-](images/breakdownschets.png) 
 
 ### wellicht nog een dynamisch deel (bijv filter): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
