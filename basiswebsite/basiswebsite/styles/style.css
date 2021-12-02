@@ -16,13 +16,13 @@
 
 @font-face {
   font-family: "Circular";
-  src: url(/assets/Circular/CircularStd-Bold.ttf);
+  src: url(/assets/Circular/CircularStd-Bold.otf);
   font-weight: bold;
 }
 
 @font-face {
   font-family: "Circular";
-  src: url(/assets/Circular/CircularStd-Medium.ttf);
+  src: url(/assets/Circular/CircularStd-Medium.otf);
   font-weight:normal;
 }
 
