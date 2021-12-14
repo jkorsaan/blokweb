@@ -61,8 +61,6 @@ Spotify Sign Up
 ### dynamisch deel (bijv menu): 
 ![-screenshots-](images/breakdownschets.png) 
 
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -79,23 +77,8 @@ Spotify Sign Up
 Opstarten was niet het makkelijkst, was weer een tijdje geleden dat ik iets met HTML en CSS had gedaan. Maar eenmaal toen ik de draai te pakken had, ging het goed en had ik maar een paar obstakels omdat ik nog net niet goed HTML en CSS onder de knie heb. Ik heb daarom ook gekozen voor de blauwe piste, zodat ik niet in dezelfde problemen kom als vorig jaar. Toen had ik een ambitieus idee, maar de uitwerking was niet zo makkelijk. HTML en CSS voor de eerste pagina is bijna klaar, naast dat ik nog een aantal aanpassingen moet doen op de CSS. Het menu is gelukt in JavaScript.
 
 
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Door middel van de hulp van de studentenassistente kon ik verder met mijn website. Het hamburgermenu was nog een grote obstakel maar dat is nu gelukt aan de hand van drie keer een div binnen een button te zetten, waardoor het nog wel een button blijft EN dat het hele oppervlak klikbaar is in plaats van alleen de witte streepjes die het hamburgermenu moeten voorstellen.
 
 </details>
 
@@ -109,26 +92,11 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+De eerste pagina is vrijwel helemaal af, ik moet nog een aantal responsive elementen toevoegen om het echt af te noemen. Ik heb wel een aantal problemen met hoe ik tekst moet scalen, en wat ik moet doen als de browser de font niet kan lezen.
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Door gebruik te maken van media quiries kan ik de website responsive maken, waarbij bijvoorbeeld het hamburgermenu weggehaald kan worden. Verder heb meegekregen dat ik fallback fonts voor de website moet gaan gebruiken, en de tekst door middel van 'clamp' te scalen. 
 
 </details>
 
@@ -142,30 +110,21 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
-
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Met het parkinson apparaat werd het navigeren op telefoon en laptop lastiger, maar zeker niet onmogelijk.
+De bril waarbij er alleen maar zicht is door een klein gaatje maakt het navigeren enorm lastig.
+De andere brillen maakte voor mij de navigatie niet een probleem.
 
 
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Parkinson
+Door het parkinson apparaat heb ik ondervonden dat de knoppen groot genoeg moeten zijn, en het geen priegelwerk moet gaan worden. Maar dat is al zo in de huidige mobiele en webversie, dus daar hoeft niets op bedacht worden, naast dat het belangrijk blijft om rekening te blijven houden met de beperking die zich dan voordoet.
 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Zicht limiteren 
+De bril die het zicht limiteerde door alleen het midden zichtbaar te maken, liet mij zien dat contrast en grote tekst belangrijk is om de website nog navigeerbaar te houden voor mensen met een soortgelijke beperking. Het scheelt dat waarschijnlijk Spotify hier ook al over na had gedacht, want ik ervaar deze problemen niet op mijn website die vrijwel identiek is.
 
 
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Overig 
+Met de overige brillen werdt het navigeren niet zo drastisch veranderd, en bleef het vrijwel gelijk aan de oorspronkelijke manier van navigeren op de website. Hiervoor hoeven er dus geen aanpassingen gedaan worden.
 
 </details>
 
@@ -179,26 +138,12 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik ben redelijk dichtbij het einde van mijn website. Ik moet dit weekend bezig met de tweede pagina om deze helemaal werkend te krijgen. Verder ben ik tot nu toe erg blij met mijn voortgang, want ik had niet verwacht dat ik het zo netjes zou kunnen maken. Ik ben daar dus tevreden mee. 
 
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Tijdens het voortganggesprek kreeg ik weinig feedback, aangezien er werd gezegd dat ik goed op weg was en alleen nog maar kleine dingen hoefte te doen. Wel werd er gewaarschuwd dat ik niet heel veel heb aan content. Hier maak ik mij zelf ook een beetje zorgen over, of dit nou wel genoeg is. Maar ik ga er wel vanuit aangezien ik dit heb nagevraagd. Ik ben heel erg benieuwd naar hoe het eindgesprek zal gaan, en ik hoop mijn tweede pagina netjes te kunnen maken dit weekend.
 
 </details>
 
@@ -227,12 +172,11 @@ hier screenshot(s) van je eindresultaat
 ## Bronnenlijst
 
 <details open>
-<summary>continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://css-tricks.com/almanac/properties/s/scrollbar/ voor de scrollbar
+2. https://fontsfree.pro/base-web-fonts/sans-serif-grotesque/1203-circular-std.html voor het font dat Spotify zelf ook heeft, maar dan met een aantal aanpassingen.
+3. https://www.spotify.com/nl/ in de html gekeken naar het logo om te gebruiken.
+4. Verder alles zelf geschreven
 
 </details>
