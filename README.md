@@ -122,6 +122,9 @@ Door het parkinson apparaat heb ik ondervonden dat de knoppen groot genoeg moete
 #### Zicht limiteren 
 De bril die het zicht limiteerde door alleen het midden zichtbaar te maken, liet mij zien dat contrast en grote tekst belangrijk is om de website nog navigeerbaar te houden voor mensen met een soortgelijke beperking. Het scheelt dat waarschijnlijk Spotify hier ook al over na had gedacht, want ik ervaar deze problemen niet op mijn website die vrijwel identiek is.
 
+#### Screenreader 
+Met behulp van de screenreader kon ik gemakkelijk bekijken of de website juist is geschreven met de goede selectors. Ik had bij deze test nog geen tweede pagina, dus heb ik alleen de eerste getest. Hierbij kwamen geen obstakels naar voren, en kwam ik er achter dat ik het juist heb geschreven.
+
 
 #### Overig 
 Met de overige brillen werdt het navigeren niet zo drastisch veranderd, en bleef het vrijwel gelijk aan de oorspronkelijke manier van navigeren op de website. Hiervoor hoeven er dus geen aanpassingen gedaan worden.
@@ -143,7 +146,7 @@ Ik ben redelijk dichtbij het einde van mijn website. Ik moet dit weekend bezig m
 
 
 ### Verslag van meeting
-Tijdens het voortganggesprek kreeg ik weinig feedback, aangezien er werd gezegd dat ik goed op weg was en alleen nog maar kleine dingen hoefte te doen. Wel werd er gewaarschuwd dat ik niet heel veel heb aan content. Hier maak ik mij zelf ook een beetje zorgen over, of dit nou wel genoeg is. Maar ik ga er wel vanuit aangezien ik dit heb nagevraagd. Ik ben heel erg benieuwd naar hoe het eindgesprek zal gaan, en ik hoop mijn tweede pagina netjes te kunnen maken dit weekend.
+Tijdens het voortganggesprek kreeg ik weinig feedback, aangezien er werd gezegd dat ik goed op weg was en alleen nog maar kleine dingen hoefte te doen. Wel werd er gewaarschuwd dat ik niet heel veel heb aan content. Hier maak ik mij zelf ook een beetje zorgen over, of dit nou wel genoeg is. Maar ik ga er wel vanuit aangezien ik dit heb nagevraagd. Ik ben heel erg benieuwd naar hoe het eindgesprek zal gaan, en ik hoop mijn tweede pagina netjes te kunnen maken dit weekend. 
 
 </details>
 
@@ -157,11 +160,21 @@ Tijdens het voortganggesprek kreeg ik weinig feedback, aangezien er werd gezegd 
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+In de laatste week / dagen heb ik de tweede pagina gemaakt met een formulier. Dit was nog lastiger dan ik had verwacht. Ik had veel moeite met de responsiveness, maar na een lange tijd was dat toch gelukt. Toen ik het eindgesprek had hebben we beide pagina's bekeken. We kwamen er wel beiden achter dat het formulier niet heel toegankelijk was, waarbij mijn labels nog met een p selector werden gemaakt. Na het eindgesprek heb ik het hele formulier opnieuw geschreven, waardoor het nu wel toegankelijk is geworden, en met de screenreader goed te navigeren is. Ik heb na het eindgesprek en na de veranderingen op de tweede pagina een screenreader test gedaan, om te kijken of het goed is. Deze test kwam goed terug, je kan de website gemakkelijk navigeren.
+
+Ook heb ik meerdere states toegevoegd bij het formulier.
+
+Daarnaast was de footer nog niet helemaal super responsive. Deze heb ik aangepast aan de hand van een media query (flexbox, block). 
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+![-screenshots-](images/eind1.png) 
+
+![-screenshots-](images/eindmob1.png) 
+
+![-screenshots-](images/eind2.png) 
+
+![-screenshots-](images/eindmob2.png) 
 
 </details>
 

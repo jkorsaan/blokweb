@@ -53,31 +53,31 @@
         <section>
                 <form action="/index.html">
                     <article>
-                    <label>Wat is je e-mailadres?</label>
-                    <input required type="email" placeholder="Voer je e-mailadres in.">
-                    <label >E-mailadres bevestigen</label>
-                    <input required type="email" placeholder="Voer je e-mailadres opnieuw in.">
-                    <label >Wachtwoord maken</label>
-                    <input required type="password" placeholder="Maak een wachtwoord.">
-                    <label>Hoe mogen we je noemen?</label>
-                    <input required type="text" placeholder="Voer een profielnaam in.">
-                    <label>Wat is je geboortedatum? </label>
-                    <input required type="date">
+                    <label for="email">Wat is je e-mailadres?</label>
+                    <input id="email" required type="email" placeholder="Voer je e-mailadres in.">
+                    <label for="email_bevestigen" >E-mailadres bevestigen</label>
+                    <input id="email_bevestigen" required type="email" placeholder="Voer je e-mailadres opnieuw in.">
+                    <label for="wachtwoord" >Wachtwoord maken</label>
+                    <input id="wachtwoord" required type="password" placeholder="Maak een wachtwoord.">
+                    <label for="gebruikersnaam">Hoe mogen we je noemen?</label>
+                    <input id="gebruikersnaam" required type="text" placeholder="Voer een profielnaam in.">
+                    <label for="geboortedatum">Wat is je geboortedatum? </label>
+                    <input id="geboortedatum" required type="date">
                 </article>
-                    <label>Wat is je geslacht? </label>
+                    <label for="geslacht">Wat is je geslacht? </label>
                     <article>
-                    <input required type="radio" name="geslacht" value="vrouw">
+                    <input id= geslacht required type="radio" name="geslacht" value="vrouw">
                     <label for="vrouw">Vrouw</label>
-                    <input type="radio" name="geslacht" value="man">
+                    <input id= geslacht type="radio" name="geslacht" value="man">
                     <label for="man">Man</label>
-                    <input type="radio" name="geslacht" value="non-binair">
+                    <input  id= geslacht type="radio" name="geslacht" value="non-binair">
                     <label for="non-binair">Non-binair</label>
                 </article>
                 <article>
-                    <input type="checkbox" name="Nieuws" value="Nieuws">
-                    <label for="Nieuws"> Ik ontvang graag nieuws en aanbiedingen van Spotify</label><br>    
-                    <input type="checkbox" name="Privacy" value="Privacy">
-                    <label for="Privacy"> Deel mijn registratiegegevens met de contentleveranciers van Spotify voor marketingdoeleinden. Houd er rekening mee dat je gegevens mogelijk worden overdragen naar een land buiten de EER, zoals beschreven in ons privacybeleid.</label>
+                    <input id="nieuws" type="checkbox" name="nieuws" value="nieuws">
+                    <label for="nieuws"> Ik ontvang graag nieuws en aanbiedingen van Spotify</label><br>    
+                    <input id="privacy" type="checkbox" name="privacy" value="privacy">
+                    <label for="privacy"> Deel mijn registratiegegevens met de contentleveranciers van Spotify voor marketingdoeleinden. Houd er rekening mee dat je gegevens mogelijk worden overdragen naar een land buiten de EER, zoals beschreven in ons privacybeleid.</label>
                 </article>
                     <input type="submit" value="Aanmelden"> 
 
