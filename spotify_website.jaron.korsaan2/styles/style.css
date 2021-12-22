@@ -37,7 +37,6 @@ body {
   padding: 0;
 }
 
-
 body::-webkit-scrollbar {
   /*hoe breed is de scrollbar*/
   width: 0.3em;
@@ -61,7 +60,10 @@ body::-webkit-scrollbar-thumb {
 
 header {
 
-  position: sticky;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
 
    /* Z index om de header boven andere elementen te zetten */
   z-index: 1;
@@ -150,6 +152,10 @@ header section {
   color: white;
 }
 
+header ul {
+  margin-top:2em;
+ }
+
 #menu.toggle  {
   display:block;
   position:fixed;
@@ -179,7 +185,7 @@ ul :hover {
 
 
 main > section:nth-of-type(1) {
-
+  margin-top: 8em;
   background-image: url(../images/spotify_background.svg);
   background-color: var(--background-color);
   padding-top: 2em;
@@ -222,12 +228,12 @@ header nav {
 main section h1 {
   text-align:center;
   font-weight:700;
-  font-size: clamp(2em, 10vw, 7em);
+  font-size: clamp(1.5em, 10vw, 7em);
   color:var(--accent-color);
   margin-bottom: 0;
   
 }
-main section p {
+main p {
   
   font-size: clamp(1em, 1.5vw, 3em);
   text-align:center;
@@ -259,7 +265,6 @@ main a {
 main a:hover {
   transform: scale(1.05);
   background-color: #2de26d;
-  color: var(--blackground);
 }
 
 @media (min-width: 680px) {
@@ -360,10 +365,17 @@ a {
 
 
 .aanmelden {
-  background-color:var(--secundair-color); 
-  color: var(--blackground);
+  background-color:var(--blackground);
     align-items: center;
     text-align: center;
+}
+
+.aanmelden main {
+  background-color:var(--secundair-color);
+}
+
+.aanmelden main h2 {
+  padding-top: 10em;
 }
 
 .aanmelden main a {
@@ -387,9 +399,6 @@ a {
   color: var(--gray);
   font-size: 1em;
 }
-.aanmelden main h2 {
-margin-top: 3em;
-}
 
 .aanmelden main p {
   color: var(--blackground);
@@ -403,86 +412,87 @@ margin-top: 3em;
 /*****************/
 
 form {
-  margin-top: 3em;
- margin-left:2em;
- margin-right:2em;
-  color: var(--blackground);
+  margin-top: 2em;
+}
+
+
+form article:nth-of-type(1) label{
+  
+ display: block;  
+ margin-bottom: 1em;
   
 }
 
-
-
 form article:nth-of-type(1) input {
-  width: 90%;
-}
-form article:nth-of-type(2) input { 
-margin-right: 10px;
-margin-left: 30px;
-}
+  width: 80%;
+   padding: 12px 20px;
+   border-radius: 5px;
+   margin-bottom: 2em;
+ }
 
-form article:nth-of-type(3) {
-  font-weight:lighter;  
- margin-left: 1em;
- margin-right: 1em;
+form article:nth-of-type(2){
+  display: flex;
+  align-items: center;
+  justify-content: center;
   }
- input {
-   border-width: thin;
-    padding: 12px 20px;
+
+  form article:nth-of-type(2) input{
+    margin-left: 2em;
+    margin-right: 1em; 
+  }
+
+  form article:nth-of-type(2) label{
+  
+    display: block;
     margin-top: 2em;
-    margin-bottom: 1em;
-    border-radius: 5px ;
-  }
+    margin-bottom: 2em;
+     
+   }
+
   form article:nth-of-type(3) {
-    text-align: start;
-    margin-bottom: 3em;
-  }
+    font-weight:lighter;  
+   margin-left: 1em;
+   margin-right: 1em;
+    }
 
 
-    @media (min-width: 800px ) {
-      form {
-        margin-top: 3em;
-       margin-left:10em;
-       margin-right:10em;
-        
-      }
-      }
-      
-      @media (min-width: 1020px ) {
-        form {
-          margin-top: 3em;
-         margin-left:20em;
-         margin-right:20em;
-          
-        }
-        
-        form article:nth-of-type(1) input {
-          width: 60%;
-        }
-        }
-      
-        @media (min-width: 1450px ) {
-          form {
-            margin-top: 3em;
-           margin-left:28em;
-           margin-right:28em;
-            
-          }
-          }
+
           
 /*****************/
 /*FORMULIER STATES*/
 /*****************/
 form input {
   border: 2px solid var(--gray);
-  transition: 0.5s ease;
+  transition: 0.2s ease;
   outline: none;
+
 }
 
+
 form input:focus {
+  border: 3px solid var(--accent-color);
+}
+
+::before {
+  border: 2px solid var(--gray);
+}
+
+input:focus:invalid {
+  border: 2px solid red;
+}
+
+
+input:valid {
+  background-color: #1ed75f1c;
   border: 2px solid var(--accent-color);
 }
 
+
+
+
+
 form input[type=submit] {
+  margin-top: 2em;
   margin-bottom: 7em;
   text-decoration: none;
   text-transform:none;
@@ -501,15 +511,46 @@ form input[type=submit]:hover {
   background-color: #2de26d;
 }
 
+@media (min-width: 800px ) {
+  form {
+    margin-top: 3em;
+   margin-left:10em;
+   margin-right:10em;
+    
+  }
+  }
+  
+  @media (min-width: 1020px ) {
+    form {
+      margin-top: 3em;
+     margin-left:20em;
+     margin-right:20em;
+      
+    }
+    
+    form article:nth-of-type(1) input {
+      width: 60%;
+    }
+    }
+  
+    @media (min-width: 1450px ) {
+      form {
+        margin-top: 3em;
+       margin-left:28em;
+       margin-right:28em;
+        
+      }
+      }
+
 /*****************/
 /*FOOTER STIJLEN*/
 /*****************/
 
 footer {
-  
-  align-items: left;
-  text-align: left;
-  margin-top: 0em;
+
+  display: block;
+  margin-top: 2em; 
+  margin-bottom: 3em;
   padding-top: 1em;
   padding-left: 2em;
   padding-bottom: 2em;
@@ -518,22 +559,35 @@ footer {
 }
 
 footer li {
-  font-weight:bold;
-  margin-left: -2em;
+  
+  font-weight:lighter;
   margin-top: 1em;
-  margin-bottom: 1em;
-  font-weight: normal;
-  font-size: .9em;
+  margin-bottom: 1em; 
+}
+footer ul {
+  padding-left: 0;
 }
 
 footer p {
   margin-top: 4em;
-  margin-bottom: 1em;
   text-transform: uppercase;
   font-weight:bold;
   font-size: 0.8em;
   color: #919496;
 }
 
+@media (min-width:1000px){
+
+  footer {
+  align-items: center;
+    display: flex;
+}
+
+footer article{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+}
 
 

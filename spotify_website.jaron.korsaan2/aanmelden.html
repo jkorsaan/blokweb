@@ -15,12 +15,12 @@
 
 <body class="aanmelden">
     <header>
-        <a href="index.html"><img src="images/spotify_logo.svg" href="index.html" alt="Spotify logo"></a>
+        <a href="/index.html"><img src="images/spotify_logo.svg" href="index.html" alt="Spotify logo"></a>
         <button>
             <span></span>
             <span></span>
             <span></span>
-        </button>
+        </button>   
         <section id="menu">
             <article>
                 <ul>
@@ -53,20 +53,20 @@
         <section>
                 <form action="/index.html">
                     <article>
-                    <p>Wat is je e-mailadres?</p>
-                    <input type="text" placeholder="Voer je e-mailadres in.">
-                    <p>E-mailadres bevestigen</p>
-                    <input type="text" placeholder="Voer je e-mailadres opnieuw in.">
-                    <p>Wachtwoord maken</p>
-                    <input type="password" placeholder="Maak een wachtwoord.">
-                    <p>Hoe mogen we je noemen?</p>
-                    <input type="password" placeholder="Voer een profielnaam in.">
-                    <p>Wat is je geboortedatum? </p>
-                    <input type="date">
+                    <label>Wat is je e-mailadres?</label>
+                    <input required type="email" placeholder="Voer je e-mailadres in.">
+                    <label >E-mailadres bevestigen</label>
+                    <input required type="email" placeholder="Voer je e-mailadres opnieuw in.">
+                    <label >Wachtwoord maken</label>
+                    <input required type="password" placeholder="Maak een wachtwoord.">
+                    <label>Hoe mogen we je noemen?</label>
+                    <input required type="text" placeholder="Voer een profielnaam in.">
+                    <label>Wat is je geboortedatum? </label>
+                    <input required type="date">
                 </article>
-                    <p>Wat is je geslacht? </p>
+                    <label>Wat is je geslacht? </label>
                     <article>
-                    <input type="radio" name="geslacht" value="vrouw">
+                    <input required type="radio" name="geslacht" value="vrouw">
                     <label for="vrouw">Vrouw</label>
                     <input type="radio" name="geslacht" value="man">
                     <label for="man">Man</label>
@@ -80,6 +80,7 @@
                     <label for="Privacy"> Deel mijn registratiegegevens met de contentleveranciers van Spotify voor marketingdoeleinden. Houd er rekening mee dat je gegevens mogelijk worden overdragen naar een land buiten de EER, zoals beschreven in ons privacybeleid.</label>
                 </article>
                     <input type="submit" value="Aanmelden"> 
+
                 </form>
 
         </section>
@@ -99,10 +100,10 @@
                 <li><a>Artiestenservices</a></li>
                 <li><a>Ontwikkelaars</a></li>
                 <li><a>Advertising</a></li>
-                <li><a>Investeerders</a></li>
-                <li><a>Leveranciers</a></li>
+
             </ul>
         </article>
+        <article>
         <p>Handige links</p>
         <ul>
             <li><a>Ondersteuning</a></li>
